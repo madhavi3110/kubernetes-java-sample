@@ -7,7 +7,7 @@ spec:
     app: wildfly-rs-pod
   ports:
     - name: web
-      port: 8080
+      port: 8081
   type: LoadBalancer
 ---
 apiVersion: extensions/v1beta1
@@ -25,4 +25,4 @@ spec:
       - name: wildfly
         image: jboss/wildfly
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
