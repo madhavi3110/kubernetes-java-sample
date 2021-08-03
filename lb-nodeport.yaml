@@ -25,4 +25,4 @@ spec:
       - name: wildfly
         image: jboss/wildfly
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
