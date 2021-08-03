@@ -17,4 +17,4 @@ spec:
       - name: master
         image: arungupta/javaee7-hol
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
