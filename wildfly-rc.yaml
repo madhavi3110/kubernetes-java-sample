@@ -15,4 +15,4 @@ spec:
       - name: wildfly-rc-pod
         image: jboss/wildfly
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
