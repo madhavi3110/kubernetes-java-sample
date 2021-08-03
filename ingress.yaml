@@ -9,4 +9,4 @@ spec:
       - path: /wildfly
         backend:
           serviceName: wildfly-service
-          servicePort: 8080
+          servicePort: 8081
