@@ -12,13 +12,13 @@ spec:
         # an http probe
         httpGet:
           path: /index.html
-          port: 8080
+          port: 8081
         httpGet:
           path: /movieplex7
-          port: 8080
+          port: 8081
         # length of time to wait for a pod to initialize
         # after pod startup, before applying health checking
         initialDelaySeconds: 30
         timeoutSeconds: 1
       ports: 
-        - containerPort: 8080
+        - containerPort: 8081
