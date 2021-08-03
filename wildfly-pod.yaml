@@ -9,4 +9,4 @@ spec:
     - image: jboss/wildfly
       name: wildfly-pod
       ports: 
-        - containerPort: 8080
+        - containerPort: 8081
